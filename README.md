@@ -40,11 +40,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
 home pagina 
-  <img src="readme-images/crunchyroll1.png" width="375px" alt="dit is de homepagina van crunchyroll">
+  <img src="./readme-images/crunchyroll1.png" width="375px" alt="dit is de homepagina van crunchyroll">
 
   #### Screenshot(s) van de tweede pagina (small screen):
  Genre action pagina
-  <img src="readme-images/crunchyroll2.png="375px" alt="hier vind je allerlei animes van het genre ACTION">
+  <img src="./readme-images/crunchyroll2.png" width="375px" alt="hier vind je allerlei animes van het genre ACTION">
  
 </details>
 
