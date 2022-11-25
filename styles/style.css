@@ -1,34 +1,59 @@
-/**************/
-/* CSS REMEDY */
-/**************/
-*, *::after, *::before {
-  box-sizing:border-box;  
+
+:root{
+    --series-color:blue;
+    --heading-text: 'Varela Round', sans-serif;
 }
-
-button, summary {
-	cursor: pointer;
+body{
+    background-color: black;
+    color: white;
 }
-
-
-
-
-
-/*********************/
-/* CUSTOM PROPERTIES */
-/*********************/
-:root {
-	/* startje */
-	--color-text:#111;
-	--color-background:#eee;
+body header h1{
+    position: fixed;
+    left: -99999999em;
+    top: 0;
 }
+body header nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
 
-
-
-
-
-/****************/
-/* JOUW STYLING */
-/****************/
-
-/* jouw code */
+}
+header nav ul li img{
+    width: 5em; 
+}
+h2{
+    font-family: var(--heading-text);
+}
+main ul:nth-last-of-type(1) img{
+    width:16em;
+}
+ 
+ main section ul li img{
+    height: 16em;
+    
+}
+  
+main section ul li {
+    flex-shrink:0;
+    flex-basis:20%;
+    scroll-snap-align:left;
+    height:16em;
+    display:flex;
+    flex-direction:column;
+    align-items:start;
+    justify-content:center;
+}
+main section ul {
+    display:flex;
+    overflow-x:scroll;
+    scroll-snap-type: x mandatory;
+    overscroll-behavior: contain;
+}
+main section:nth-last-of-type(2) img{
+    width: 50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+  
 
