@@ -95,7 +95,7 @@ home pagina
 <details>
   <summary>uitwerken na afloop 2e werkgroep</summary>
   
-  <img src="./readme-images/htmlbreakdown.png" width="375px" alt="Breakdown schets van de html van Crunchyroll">
+  <img src="./readme-images/hmtlbreakdown.png" width="375px" alt="Breakdown schets van de html van Crunchyroll">
 
 
 </details>
