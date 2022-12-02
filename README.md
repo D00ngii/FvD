@@ -81,6 +81,7 @@ home pagina
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
   Hier korte omschrijving (met indien nodig afbeeldingen)
   De website bied verschillende soorten functies aan voor mensen die kleuren blind zijn en is nogsteeds na volgbaar doordat het kleuren contrast op de websote heel nauwkeurig is gedaan. Je kan goed onderscheid maken tussen alle elementen en dit zal voor kleurenblinden geen belemmeringen veroorzaken.
+  
    <img src="./readme-images/kleurenblind.png" width="375px" alt="Je ziet hier hoe crunchyroll eruit ziet met een kleurenblinden filter">
    <img src="./readme-images/contrastverlaging.png" width="375px" alt="Je ziet hier hoe crunchyroll eruit ziet met minder contrast filter">
 
