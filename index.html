@@ -14,148 +14,232 @@
 <body>
     <header>
         <h1>Dit is de home pagina van Crunchyroll</h1>
-        <nav>
-          <ul>
+        <button>
+            <img src="./images/hamburger.png" alt="">
+        </button>
+        <ul>
             <li><a href=""><img src="./images/Crunchyroll-Symbol.png" alt="het logo van Crunchyroll"></a></li>
-            <li><a href=""><img src="" alt=""></a></li>
-            <li><a href=""><img src="" alt=""></a></li>
-            <li><a href=""><img src="" alt=""></a></li>
-          </ul>
+            <li><a href=""><img src="./images/premium.png" alt=""></a></li>
+            <li><a href=""><img src="./images/search.png" alt=""></a></li>
+            <li><a href=""><img src="./images/accounticon.png" alt=""></a></li>
+        </ul>
+        <nav>
+            <h2>Browse</h2>
+            <ul>
+                <li>Popular</li>
+                <li>New</li>
+                <li>Alphabetical</li>
+                <li>Simulast Season</li>
+                <li>Release Calendar</li>
+                <li>Genres</li>
+                <li>Manga</li>
+                <li>Games</li>
+                <li>Store</li>
+                <li>News</li>
+            </ul>
         </nav>
+        
       </header>
       <main>
-        <ul>
-          <li><img src="./images/bluelock1.jpeg" alt=""></li>
-          <li><img src="./images/86.jpeg" alt=""></li>
-          <li><img src="./images/chainsawman.png" alt=""></li>
-          <li><img src="./images/game.png" alt=""></li>
-          <li><img src="./images/hunterxhunter.png" alt=""></li>
-          <li><img src="./images/mobpsycho.png" alt=""></li>
-        </ul>
+        <section id="everything" class="caroCarrousel" aria-label="Voorbeeld met alle opties aan" tabIndex="-1">
+            <!-- de id kun je zelf een naam geven en geef je mee in de js -->
+            <ul>
+              <li id="element1"><img src="./images/bluelock1.png" alt="kittens" /></li>
+              <li id="element2"><img src="./images/hunterxhunter.png" alt="kittens" /></li>
+              <li id="element3"><img src="./images/chainsawman.png" alt="kittens" /></li>
+              <li id="element4"><img src="./images/game.png" alt="kittens" /></li>
+              <li id="element5"><img src="./images/86.jpeg" alt="kittens" /></li>
+              <li id="element6"><img src="./images/mobpsycho.png" alt="kittens" /></li>
+              
+            </ul>
+            
+            <a href="previous" aria-label="Naar het element aan de linkerkant"></a>
+            <a href="next" aria-label="Naar het element aan de rechterkant"></a>
+            
+            <nav>
+              <ul>
+                <li><a href="#element1" aria-label="go to element1"></a></li>
+                <li><a href="#element2" aria-label="go to element2"></a></li>
+                <li><a href="#element3" aria-label="go to element3"></a></li>
+                <li><a href="#element4" aria-label="go to element4"></a></li>
+                <li><a href="#element5" aria-label="go to element5"></a></li>
+                <li><a href="#element6" aria-label="go to element6"></a></li>
+              </ul>
+            </nav>
+            
+            <button aria-label="start/stop autoscroll"></button>
+        </section>
         <section>
             <h2>Most Popular</h2>
                 <ul>
-                    <li><img src="./images/bluelock1.jpeg" alt=""></li>
-                    <li><img src="./images/86.jpeg" alt=""></li>
-                    <li><img src="./images/chainsawman.png" alt=""></li>
-                    <li><img src="./images/game.png" alt=""></li>
-                    <li><img src="./images/hunterxhunter.png" alt=""></li>
-                    <li><img src="./images/mobpsycho.png" alt=""></li>
+                    <li>
+                        <img src="./images/attackontitan.jpeg" alt="">
+                        <h3>Attack On Titan</h3>
+                        <p><span>Series </span>♦ Sub | Dub</p>
+                    </li>
+                    <li>
+                        <img src="./images/tokyorevengers.jpeg" alt="">
+                        <h3>Tokyo Revengers</h3>
+                        <p><span>Series </span>♦ Sub | Dub</p>
+                    </li>
+                    <li>
+                        <img src="./images/bluelock2.jpeg" alt="">
+                        <h3>Blue Lock</h3>
+                        <p><span>Series </span>♦ Sub | Dub</p>
+                    </li>
+                    <li>
+                        <img src="./images/firceforce.jpeg" alt="">
+                        <h3>Fire Force</h3>
+                        <p><span>Series </span>♦ Sub | Dub</p>
+                    </li>
+                    <li>
+                        <img src="./images/demonslayer.jpeg" alt="">
+                        <h3>Demon Slayer</h3>
+                        <p><span>Series </span>♦ Sub | Dub</p>
+                    </li>
+                    <li>
+                        <img src="./images/fruitsbasket.jpeg" alt="">
+                        <h3>Fruits Basket</h3>
+                        <p><span>Series </span>♦ Sub | Dub</p>
+                    </li>
+                    <li>
+                        <img src="./images/jujutsukaisen.jpeg" alt="">
+                        <h3>Jujutsu Kaisen</h3>
+                        <p><span>Series </span>♦ Sub | Dub</p>
+                    </li>
                 </ul>
         </section>
         <section>
             <img src="./images/tomodachigame.jpeg" alt="An image about the anime Tomodachi game">
             <h2>Tomodachi Game</h2>
+            <p><span>Series </span>♦ Sub | Dub</p>
+            <button>Save</button>
             <p>After raising enough to join his friends on a school trip, Yuichi’s money, along with the rest of the class’s, is stolen! And to make matters worse, he and his close friends have been abducted to play a debt repayment game or else they’ll be millions of yen in debt! The Tomodachi Game will test their bonds with betrayal, secrets, and which means the most to them—money or friendship?</p>
-            <button></button>
+            <button><img src="" alt="">Start Watiching S1 E1</button>
         </section>
         <section>
             <h2>Crunchyroll News</h2>
-            <article>
+            <section>
                 <h3>Top News</h3>
                 <article>
-                    <img src="" alt="">
-                    <h4></h4>
+                    <img src="./images/bluewoman.png" alt="">
+                    <h4>Feature: Which Anime Characters Should Host Cooking Conmpetition Shows?</h4>
+                    <p>Nov 24, 2022 5:00pm CET</p>
+                    <p>by Chelsea Cruz</p>
                 </article>
                 <article>
-                    <img src="" alt="">
-                    <h4></h4>
+                    <img src="./images/scholar.jpg" alt="">
+                    <h4>QUIZ: Could You Become an Imperial Scholar in SPY x FAMILY?</h4>
+                    <p>Nov 23, 2022 6:00pm CET</p>
+                    <p>by Leah President</p>
                 </article>
-            </article>
-            <article>
+            </section>
+            <section>
                 <h3>Lastest</h3>
                 <img src="" alt="arrow pointing to the right">
                 <article>
-                    <img src="" alt="">
-                    <h4>Spy Classroom TV</h4>
-                    <p></p>
+                    <img src="./images/orangegirl.jpg" alt="">
+                    <h4>Hime's Supercharged Playlist is Here to Amp You Up</h4>
+                    <p>Nov 24, 2022 10:00pm CET</p>
+                    <p>by Joseph Luster</p>
                 </article>
                 <article>
-                    <img src="" alt="">
-                    <h4>BLABLABLA</h4>
-                    <p></p>
+                    <img src="./images/bluehair1.jpg" alt="">
+                    <h4>Voice Actor Daisuke Ono Gets Deciptive in Little Lies We All Tell TV Anime</h4>
+                    <p>Nov 24, 2022 6;54pm CET</p>
+                    <p>by Paul Chapman</p>
                 </article>
                 <article>
-                    <img src="" alt="">
-                    <h4>sbvnnasvksn ns </h4>
-                    <p></p>
+                    <img src="./images/madman.png" alt="">
+                    <h4>The Fruit of Evolution 2 TV Anime Sets January 13 Premiere with New Trailer</h4>
+                    <p>Nov 24, 2022 4:10pm CET</p>
+                    <p>by Liam Dempsey</p>
                 </article>
                 <article>
-                    <img src="" alt="">
-                    <h4>cacsv sv janvkqnnanvknsvksv</h4>
-                    <p></p>
+                    <img src="./images/brownjacketlady.jpg" alt="">
+                    <h4>Love Live! Nijigasaki High School Idol Club OAV Hits Japanese Theathers in 2023</h4>
+                    <p>Nov 24, 2022 3:08pm CET</p>
+                    <p>by Paul Chapman</p>
                 </article>
                 <article>
-                    <img src="" alt="">
-                    <h4>cscssvzsbahtdjsrhaaeg</h4>
-                    <p></p>
+                    <img src="./images/bluehair2.jpg" alt="">
+                    <h4>Megaton Musashi TV Anime Delays Episode 19 to Keep Up Quality</h4>
+                    <p>Nov 24, 2022 10:20am CET</p>
+                    <p>by Daryl Harding</p>
                 </article>
                 <article>
-                    <img src="" alt="">
-                    <h4>wgaaddahthadhahahae</h4>
-                    <p></p>
+                    <img src="./images/yuta.jpg" alt="">
+                    <h4>JUJUTSU KAISEN 0 Confirmed to Be 6th Highest-Grossing Anime Film Worldwide</h4>
+                    <p>Nov 24, 2022 9:52am CET</p>
+                    <p>by Daryl Harding</p>
                 </article>
-                <article>
-                    <img src="" alt="">
-                    <h4>asrhaethjrshaerhtesjserj</h4>
-                    <p></p>
-                </article>
-            </article>
+            </section>
         </section>
       </main>
       <footer>
         <section>
             <h2>Navigation</h2>
-            <a href="">Browse Popular</a>
-            <a href="">Browse Simulcasts</a>
-            <a href="">Browse Manga</a>
-            <a href="">Browse Calender</a>
-            <a href="">News</a>
-            <a href="">Store</a>
-            <a href="">Games</a>
+            <ul>
+                <li><a href="">Browse Popular</a></li>
+                <li><a href="">Browse Simulcasts</a></li>
+                <li><a href="">Browse Manga</a></li>
+                <li><a href="">Browse Calender</a></li>
+                <li><a href="">News</a></li>
+                <li><a href="">Store</a></li>
+                <li><a href="">Games</a></li>
+            </ul>
         </section>
         <section>
             <h2>Connect With Us</h2>
-            <section>
-                <img src="" alt="">
-                <a href="">Youtube</a>
-            </section>
-            <section>
-                <img src="" alt="">
-                <a href="">Facebook</a>
-            </section>
-            <section>
-                <img src="" alt="">
-                <a href="">Twitter</a>
-            </section>
-            <section>
-                <img src="" alt="">
-                <a href="">Instagram</a>
-            </section>
-            <section>
-                <img src="" alt="">
-                <a href="">Tiktok</a>
-            </section>
+            <ul>
+                <li>
+                    <img src="" alt="">
+                    <a href="">Youtube</a>
+                </li>
+                <li>
+                    <img src="" alt="">
+                    <a href="">Facebook</a>
+                </li>
+                <li>
+                    <img src="" alt="">
+                    <a href="">Twitter</a>
+                </li>
+                <li>
+                    <img src="" alt="">
+                    <a href="">Twitter</a>
+                </li>
+                <li>
+                    <img src="" alt="">
+                    <a href="">Instagram</a>
+                </li>
+                <li>
+                    <img src="" alt="">
+                    <a href="">Tiktok</a> 
+                </li>
+            </ul>
         </section>
         <section>
             <h2>Crunchyroll</h2>
-            <section>
-                <img src="" alt="">
-                <a href="">Start a Free Trail</a>
-            </section>
-            <a href="">About</a>
-            <a href="">Help/FAQ</a>
-            <a href="">Terms of Use</a>
-            <a href="">Privacy Policy</a>
-            <a href="">AdChoices</a>
-            <a href="">Do Not Sell My Personal Information</a>
-            <a href="">Cookie Consent Tool</a>
-            <a href="">Press Inquiries</a>
-            <a href="">Get the Apps</a>
-            <a href="">Redeem Gift Card</a>
-            <a href="">Jobs</a>
+            <ul>
+                <li>
+                    <img src="" alt="">
+                    <a href="">Start a Free Trail</a>
+                </li>
+                <li><a href="">About</a></li>
+                <li><a href="">Help/FAQ</a></li>
+                <li><a href="">Terms of Use</a></li>
+                <li><a href="">Privacy Policy</a></li>
+                <li><a href="">AdChoices</a></li>
+                <li><a href="">Do Not Sell My Personal Information</a></li>
+                <li><a href="">Cookie Consent Tool</a></li>
+                <li><a href="">Press Inquiries</a></li>
+                <li><a href="">Get the Apps</a></li>
+                <li><a href="">Redeem Gift Card</a></li>
+                <li><a href="">Jobs</a></li>
+            </ul>
         </section>
       </footer>
-	<script defer src="scripts/script.js"></script>
+      <script src="./script.js" defer></script>
 </body>
 </html>
+<!---->
