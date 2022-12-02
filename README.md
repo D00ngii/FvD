@@ -74,14 +74,16 @@ home pagina
 
   #### Motoriek (shocks, elastiekjes)
   Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+  Ze hebben op de home pagina een caroussel die automatisch doorscrollt dit kan voor mensen vervelend zijn omdat zij kunnen mis klikken en dan vervolgens hun gewilde show missen en dan moeten wachten of terug klikken. 
+  
+  Een oplossing hiervoor zou zijn de caroussel stop kunnen zetten doormidddel van een pauze knop.
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
   Hier korte omschrijving (met indien nodig afbeeldingen)
+  De website bied verschillende soorten functies aan voor mensen die kleuren blind zijn en is nogsteeds na volgbaar doordat het kleuren contrast op de websote heel nauwkeurig is gedaan. Je kan goed onderscheid maken tussen alle elementen en dit zal voor kleurenblinden geen belemmeringen veroorzaken.
+   <img src="./readme-images/kleurenblind.png" width="375px" alt="Je ziet hier hoe crunchyroll eruit ziet met een kleurenblinden filter">
+   <img src="./readme-images/contrastverlaging.png" width="375px" alt="Je ziet hier hoe crunchyroll eruit ziet met minder contrast filter">
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
 </details>
 
