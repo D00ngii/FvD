@@ -60,14 +60,16 @@ home pagina
 
   #### Screenreader
   Hier korte omschrijving (met indien nodig afbeeldingen)
-
+  
+  Ik heb gemerkt dat tijdens het bezoeken van mijn website de screenreader alles op leest en telkens de naam van de website herhaalt als je de Nederlandse verteller aan hebt staan. Maar als je verder gaat op de pagina kom je erachter dat het the volgorde en opbouw vrij logisch is en dat het makkelijk te volgen is. Het is soms nog wel moeilijk om te achterhalen wat nou precies wel en niet een link is, doordat sommige afbeeldingen ook klikbaar zijn en dit niet duidelijk wordt vertelt door de screen reader. Ik heb ook getest met een Engelse verteller  alleen dan leest de engelse verteller wel alle dingen zoals het woord afbeelding vanuit de code wel in het engels uitgesproken, terwijl dit een Nederlands woord is.
+  
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
-
+  
+  Je zou eventueel code ook in het engels schrijven om verwarring te voorkomen.
+ 
   #### Muis en Toetsenbord 
   Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Dit doen Crunchyroll erg goed, elke state wordt toegepast bij het doorlopen van de website met muis en toetsenbord. Verder is de volgorde van selecteren heel logisch en kan je makkelijk worden doorverwezen naar de gewensde pagina. 
 
 
   #### Motoriek (shocks, elastiekjes)
