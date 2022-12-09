@@ -335,5 +335,6 @@
 (function() {
   // hier de id gebruiken van de section in de html
   createCaroCarrousel("everything");
+  createCaroCarrousel("justButtons");
   //je kunt hier ook meerdere carrousellen activeren
 })();
