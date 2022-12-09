@@ -212,20 +212,19 @@ home pagina
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Ruben          | Ruud               | Bart         | 
+  | ---            | ---                | ---          | 
+  |- Link zoekbalk | - Tekst in een grid| - een slider | 
+  |- Orderen valk  | Alleen horizontaal | - Menu balk  |         
+  |                | - Aparte body      |              | 
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Tekst/elementen beter stijlen doormiddel van grid
+  - Flexbox verbeteren/ elementen verplaatsen
+  - Links naar andere positie op een website
 
 </details>
 
