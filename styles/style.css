@@ -15,9 +15,31 @@
     --menu-header-text: grey;
     --maxWidth:32rem;
     --button-color: #f47521;
+    --paragraph-headings:'Lato', sans-serif;;
+    --paragraph-color: white;
+    --span-color: #2abdbb;
+    --hover-color-news: #393D47;
 }
+
+@media (prefers-color-scheme: light){
+    :root{
+        --paragraph-color: black; 
+        --heading-text-color: black;
+        --background-color: white;
+    }
+    
+
+}
+
 li{
     list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: var(--paragraph-color);
+}
+span{
+    color: var(--span-color);
 }
 body{
     background-color: black;
@@ -32,7 +54,7 @@ body header h1{
 }
 header button{
     border: none;
-    background-color: var(#23252b);
+    background-color: var(--header-color);
 }
 header button img{
     border:none;
@@ -74,10 +96,11 @@ header nav ul{
     gap: 2em;
     
 }
-header nav ul li{
+header nav ul li a{
     display: flex;
     gap: 10em;
 }
+
 header h2{
     font-size: 1em;
     color: var(--menu-header-text);
@@ -90,14 +113,11 @@ header h2{
   .caroCarrousel {
       /* basis waarden die door de hele carrousel gebruikt worden */
       /* kun je zelf aanpassen */
-    --caroCarrouselMainColor:#333;
-    --caroCarrouselAccentColor:#1b75b3;
-    --caroCarrouselShadeColor:#ddd9;
-    --caroCarrouselInverseColor:white;
-    
+    --caroCarrouselMainColor: var(--button-color);
+    --caroCarrouselAccentColor: black ;
+    --caroCarrouselShadeColor:white;
+    --caroCarrouselInverseColor:var(--background-color);
     --caroCarrouselAutoScrollInterval:4000;
-
-    --back-color1:#2abdbb;
   
     position: relative;
      /* om de linkbuttons te verbergen */
@@ -106,16 +126,17 @@ header h2{
     margin-bottom: 3em;
     background-color: var(--back-color1);
   }
-
+.caroCarrousel:nth-of-type(1){
+  --back-color1:#2abdbb;
+}
   .caroCarrousel.alternative {
       background-color: #f47521 ;
   }
   
   /* dark mode */
-  @media (prefers-color-scheme: dark) {
+  @media (prefers-color-scheme: light) {
     .caroCarrousel {
-      --caroCarrouselMainColor:#f47521;
-      --caroCarrouselShadeColor:#23252b;
+      --caroCarrouselShadeColor: black;
     }
   }
   
@@ -143,7 +164,19 @@ header h2{
     -webkit-overflow-scrolling: touch; /* voor iOS*/
     -ms-overflow-style: none; /* voor IE */
       scrollbar-width: none; /* voor firefox */
+    flex-direction: row;
   }
+  
+  .caroCarrousel:nth-of-type(2) > ul{
+    margin: 0;
+    width:100%;
+    max-width: 100%;
+    gap: 2em;
+  }
+
+  /* .caroCarrousel:nth-of-type(2) > ul li a h3{
+    order: -1;
+  } */
   
   .caroCarrousel > ul::-webkit-scrollbar {
     /* scrollbar zoveel mogelijk verbergen */
@@ -159,7 +192,13 @@ header h2{
     /* snappen als er gescrolled wordt - andere helft bij ul */
       scroll-snap-align:center;
   }
-  
+  .caroCarrousel:nth-of-type(2) > ul li {
+    flex-basis: 10%;
+    flex-shrink: 0;
+    gap: 2em;
+    /* snappen als er gescrolled wordt - andere helft bij ul */
+      scroll-snap-align:center;
+  }
   
   /**********************************/
   /* de carrousel elementen content */
@@ -205,8 +244,6 @@ header h2{
     text-decoration: none;
       color: var(--caroCarrouselMainColor);
     background-color: var(--caroCarrouselShadeColor);
-    outline: none;
-      box-shadow: inset 0 0 0 1px currentColor;
     
     transition: 0.5s;
   }
@@ -230,15 +267,20 @@ header h2{
     aspect-ratio:1/1;
       top: calc(50% - 1.5em);
     
-    color: var(--caroCarrouselMainColor);
-    background-color: var(--caroCarrouselShadeColor);
+    color: var(--background-color);
+    background-color: none;
     outline: none;
-      box-shadow: inset 0 0 0 1px currentColor;
+
       
     display:grid;
     place-items:center;
     
     transition: 0.5s;
+  }
+  .caroCarrousel:nth-of-type(2) > a{
+    width: 2em;
+    color: var(--caroCarrouselShadeColor);
+    background-color: var(--menu-header-text);
   }
   
   
@@ -252,6 +294,21 @@ header h2{
     right:.5em;
   }
   
+  /* .caroCarrousel:nth-of-type(2) > a[href="previous"] {
+    left:-3.5em;
+  }
+  .caroCarrousel:nth-of-type(2) > a[href="next"] {
+    right: -3.5em;
+  } */
+
+  /* initieel staan de links "buiten beeld" */
+.caroCarrousel > a[href="previous"] {
+  left:.5em;
+}
+.caroCarrousel > a[href="next"] {
+  right: .5em;
+}
+
   /* prev en next linkbuttons pijltjes */
   .caroCarrousel > a::before,
   .caroCarrousel > a::after {
@@ -418,12 +475,144 @@ header h2{
       98%{ background-image: conic-gradient(var(--caroCarrouselInverseColor) 98%, transparent 0%); }
       
       100%{ background-image: conic-gradient(var(--caroCarrouselInverseColor) 100%, transparent 0%); }
-  }    
-main > section:nth-of-type(3) img{
-    width: 100%;
-}
+  } 
+  main sectio:nth-of-type(3){
+    display: grid;
+  }
 
-main > section:nth-of-type(3) button:last-of-type{
+ 
+  main section:nth-of-type(3) button:nth-of-type(2){
+    margin: 0; padding: 2em;
+    align-self: center;
+    
+    border:none;
     background-color: var(--button-color);
+    font-family: var(--heading-text);
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  main section:nth-of-type(3) button:nth-of-type(2) img{
+    rotate: 90deg;;
+    width: 3em;
+  }
+  main section:nth-of-type(3) img{
+    width: 100%;
+  }
+  
+  main section:nth-of-type(4){
+    padding: .3em;
+    border: solid;
+    border-color: transparent;
+    border-width: .5em;
+    background-image: linear-gradient(#fab818,#ef4323);;
+  }
+
+
+main section:nth-of-type(4) div{
+  padding: .1em;
+  background-image: linear-gradient(#fab818,#ef4323);;
+  position:static;
 }
 
+main section:nth-of-type(4) section, main section:nth-of-type(4) h2, main section:nth-of-type(4) div{
+  background-color: var(--background-color);
+}
+
+main section:nth-of-type(4) section{
+  padding: .5em;
+}
+
+/* Dit is de Top news van crunchyroll */
+
+main > section:nth-of-type(4) section:nth-of-type(1) h3 {
+  font-size: 1rem;
+}
+
+main > section:nth-of-type(4) section:nth-of-type(1) ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display:grid;
+  gap: .5em;
+  grid-template-columns:  repeat(2, 1fr)
+
+}
+
+main > section:nth-of-type(4) section:nth-of-type(1) li a{
+  display: grid;
+  grid-template-rows:  1fr;
+  row-gap: 0.5em;
+}
+
+main > section:nth-of-type(4) section:nth-of-type(1) li a:hover{
+  background-color: var(--hover-color-news);
+  transition: 1s ease;
+}
+
+main > section:nth-of-type(4) section:nth-of-type(1) li h4{
+  margin: 0;
+  line-height: 1.5em;
+  font-size: 1em;
+
+}
+
+main > section:nth-of-type(4) section:nth-of-type(1) li p{
+  margin:0;
+  color: var(--menu-header-text);
+  line-height: 1em;
+  font-size: .75em;
+}
+
+main > section:nth-of-type(4) section:nth-of-type(1) li a img{
+  width: 10em;
+  aspect-ratio: 16/9;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  object-fit: cover;
+}
+
+
+ /* Dit is de News layout van Latest News */
+
+main > section:nth-of-type(4) section:nth-of-type(2) h3 {
+  font-size: 1rem;
+}
+
+main > section:nth-of-type(4) section:nth-of-type(2) ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display:grid;
+    gap: .5em;
+
+}
+
+main > section:nth-of-type(4) section:nth-of-type(2) li a{
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    grid-template-rows: max-content max-content 1fr;
+    column-gap: 0.5em;
+    row-gap: 0.1em;
+}
+main > section:nth-of-type(4) section:nth-of-type(2) li a:hover{
+  background-color: var(--hover-color-news);
+  transition: 1s ease;
+}
+main > section:nth-of-type(4) section:nth-of-type(2) li h4{
+    margin: 0;
+    line-height: 1.25em;
+    font-size: 1em;
+}
+
+main > section:nth-of-type(4) section:nth-of-type(2) li p{
+    margin:0;
+    color: var(--menu-header-text);
+    line-height: 1em;
+    font-size: .75em;
+}
+
+main > section:nth-of-type(4) section:nth-of-type(2) li a img{
+    width: 4em; 
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
