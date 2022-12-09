@@ -190,7 +190,7 @@ home pagina
 
   #### Motoriek (shocks, elastiekjes)
   Naast het feit dat Sanne de hoogste stand bij mij aan deed, merkte ik dat ik met twee fingers controle had over de website maar als je meerdere vingers moet gebruiken dat je dan wel aardig in de problemen kan komen. Voor de rest waren de buttons niet al te moeilijk om te beheersen met de spasmes in je arm en hand. 
-
+ <img src="./readme-images/motoriek2.jpg" width="375px" alt="Dit is een foto van de spasmes motor die aan mijn arm vast zat tijdens het testen">
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
   Tijdens het gebruiken van de brillen kwam ik erachter dat de website een vrij goed contrast had waardoor het onderscheiden van bepaalde elementen gemakkelijk afging. Verder voel ik het soms wel lastig om bepaalde dingen te lezen dus daarvoor moet ik kunnen inzoomen op mijn webiste, dat gaat voor groot deel gaat dat goed maar in sommige vlakken kan ik dit op mijn webiste nog beter maken.
 
