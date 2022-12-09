@@ -181,27 +181,18 @@ home pagina
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
 
   #### Screenreader
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Het lezen van de tekst door de screenreader ging gemakkelijk en was prima te verstaan. Hij leest alleen nog geen plaatjes voor dus dat kan voor blinden nog een probleem zijn. Ook was het geluid van de screenreader best zacht, maar dat komt omdat de speakers van mijn laptop niet top zijn. Met alle headings voorlezen ging zoals het hoorde en ging netjes op volgorde en las de juiste dingen voor, hetzelfde geldt voor de links.
 
 
   #### Muis en Toetsenbord 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Ik kon door mijn website gemakkelijk tabben het enige wat nog ontbreekt is dat als ik iets geselecteerd heb met mijn tab kan je dit nog moeilijk zien/ niet zien. Dus ik moet een focus toevoegen aan alle links en buttons. Ook missen een aantal knoppen en links nog een hover dus die moet ik ook nog toevoegen om mijn website te optimaliseren.
 
 
   #### Motoriek (shocks, elastiekjes)
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+  Naast het feit dat Sanne de hoogste stand bij mij aan deed, merkte ik dat ik met twee fingers controle had over de website maar als je meerdere vingers moet gebruiken dat je dan wel aardig in de problemen kan komen. Voor de rest waren de buttons niet al te moeilijk om te beheersen met de spasmes in je arm en hand. 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Tijdens het gebruiken van de brillen kwam ik erachter dat de website een vrij goed contrast had waardoor het onderscheiden van bepaalde elementen gemakkelijk afging. Verder voel ik het soms wel lastig om bepaalde dingen te lezen dus daarvoor moet ik kunnen inzoomen op mijn webiste, dat gaat voor groot deel gaat dat goed maar in sommige vlakken kan ik dit op mijn webiste nog beter maken.
 
 </details>
 
