@@ -113,25 +113,23 @@ home pagina
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+  Ik vond het al lastig genoeg om alles in de juiste tags te krijgen met html dus ik had nog niet zoveel (geen styling)
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Ruben van Vliet     | Ruud          | Bart    | 
+  | ---            | ---                | ---          | 
+  | Automatische Carroussel | Domino's text bovenkant            | Bart was er niet    | 
+  |  Een hamburger menu| |  |
+  | ...            | ...                | ...          | 
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+- We gaan in de volgende lessen een hamburger menu bespreken
+- Een automatische carrousel mag ik van Sanna zijn codepen kopieren en gebruiken
 
 </details>
 
@@ -146,26 +144,23 @@ home pagina
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+  Ik vond het gebruiken van de carrousel vrij simpel en kwam er makkelijk uit echter vind ik het lastig om de achtergrond te veranderen als ik naar het volgende item ga in de carrousel. Ook heb ik veel moeite met flexbox en grid dus ik ga Sanna om hulp vragen bij dit onderdeel.
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Ruben     | Bart        | Ruud    | 
+  | ---            | ---                | ---          | 
+  | News pagina flexen/grid | Locaties            | /    | 
+  |  |  | / | 
+  | ...            | ...                | ...          |
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
-
+- Ik kan beter met grid werken door de uitleg van Sanne en de code die hij voor mij had geschreven
+- Door mij te kijken met Bart kon ik ook makkelijker begrijpen hoe flex werkt.
 </details>
 
 
@@ -207,7 +202,7 @@ home pagina
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+  Ik heb sinds de laatste keer veel verandert op mijn website ik heb mijn hele main bijna in orde. Alleen heb ik nog moeite met het orderen van dingen binnen een element want ik probeer vanalles maar er gebeurt niets. Ook moet ik nog veel ander werk verrichtten zoals mijn hele tweede pagina en mijn footer.
 
   ### Agenda voor meeting
   samen met je groepje opstellen
@@ -264,8 +259,10 @@ home pagina
 
   Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. Tim van Ingen 
+  2. Sanne van 't Hoofd
+  3. Studenten docenten
+  4. https://codepen.io/adrianparr/pen/QxMvdj 
+  5. https://www.a11yproject.com/posts/how-to-hide-content/
 
 </details>
