@@ -233,19 +233,25 @@ home pagina
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/home1.png" width="375px" alt="">
+    <img src="readme-images/home2.png" width="375px" alt="">
+    <img src="readme-images/simseason.png" width="375px" alt="">
+    <img src="readme-images/footer.png" width="375px" alt="">
+
+
+
 
 
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatjes
-
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  Ik heb veel geleerd over flexboxen en grid en ben daar erg op vooruit gegaan
+  <img src="readme-images/home3.png" width="375px" alt="">
 
 
   ### Dit was lastig/Is niet gelukt:
   Korte omschrijving met plaatjes
-
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  Het werken met een licht modus was vrij lastig want lukte heel lang niet
+  <img src="readme-images/licht.png" width="375px" alt="">
 </details>
 
 
