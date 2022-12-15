@@ -264,5 +264,6 @@ home pagina
   3. Studenten docenten
   4. https://codepen.io/adrianparr/pen/QxMvdj 
   5. https://www.a11yproject.com/posts/how-to-hide-content/
+  6. https://www.youtube.com/watch?v=y-hPQ0-orMM&t=1s dit is de link naar de video die ik heb gebruikt voor in mijn website
 
 </details>
