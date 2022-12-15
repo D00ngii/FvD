@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Varela+Round&display=swap");
+*,
+*::after,
+*::before {
+  font-family: "Lato", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --series-color: blue;
+  --heading-text: "Varela Round", sans-serif;
+  --background-color: black;
+  --header-color: #23252b;
+  --menu-header-text: grey;
+  --maxWidth: 32rem;
+  --heading-text-color: white;
+  --button-color: #f47521;
+  --paragraph-headings: "Lato", sans-serif;
+  --paragraph-color: white;
+  --span-color: #2abdbb;
+  --hover-color-news: #393d47;
+  --divide-line-color: #23252b;
+  --footer-links-color: #a0a0a0;
+  --footer-end-color: #213843;
+  --premium-color: #fab818;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --footer-links-color: grey;
+    --footer-end-color: lightblue;
+    --hover-color-news: #ccc;
+    --paragraph-color: black;
+    --heading-text-color: black;
+    --background-color: white;
+  }
+  main > section:nth-of-type(4) section:nth-of-type(2) > a img {
+    filter: invert(100%);
+  }
+  footer section ul li:hover {
+    --footer-links-color: black;
+  }
+}
+
+/* soucre van de code https://www.a11yproject.com/posts/how-to-hide-content/ */
+
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: var(--paragraph-color);
+}
+a:active {
+  transform: scale(95%);
+}
+a:focus {
+  border: solid;
+  border-color: var(--button-color);
+}
+a img:active {
+  transform: scale(90%);
+}
+button:active {
+  transform: scale(90%);
+}
+button:focus {
+  border: solid;
+  border-color: var(--span-color);
+}
+span {
+  color: var(--span-color);
+}
+body {
+  background-color: var(--background-color);
+}
+
+body header h1 {
+  position: fixed;
+  left: -99999999em;
+  top: 0;
+}
+header button {
+  border: none;
+  background-color: var(--header-color);
+  padding-left: 1em;
+}
+
+header {
+  background-color: var(--header-color);
+  position: sticky;
+  display: flex;
+  width: 100%;
+  top: 0;
+  z-index: 100;
+  height: 5em;
+}
+header > ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+header > ul li:nth-of-type(1) {
+  padding-left: 1em;
+  margin-right: auto;
+}
+
+header > ul li:nth-of-type(2) a {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+header > ul li:nth-of-type(2) a:focus {
+  clip: unset;
+  clip-path: none;
+  height: auto;
+  overflow: visible;
+  position: unset;
+  white-space: nowrap;
+  width: auto;
+}
+header > ul li:nth-of-type(1):hover {
+  filter: brightness(10000000000%);
+}
+header img {
+  width: 3em;
+}
+header button img {
+  width: 1.5em;
+}
+
+header nav h2 {
+  padding: 1em 0 0 1em;
+  color: var(--menu-header-text);
+  font-size: 1em;
+}
+header nav {
+  position: fixed;
+  inset: 0;
+  top: 5em;
+  display: flex;
+  flex-direction: column;
+  transform: translateY(-200%);
+  transition: 0.1s;
+  background-color: var(--background-color);
+}
+header nav.open {
+  transform: translateY(0%);
+}
+header nav ul {
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+}
+header nav ul li a {
+  padding: 0.75em 0.5em;
+  display: block;
+  width: 100%;
+}
+
+header nav ul li a:hover {
+  background-color: var(--hover-color-news);
+  transition: 1s ease;
+}
+header nav ul li:nth-of-type(6) {
+  padding-bottom: 1em;
+  border-bottom: 2px solid var(--divide-line-color);
+}
+footer {
+  padding: 1em;
+  background-image: linear-gradient(
+    var(--background-color),
+    var(--footer-end-color)
+  );
+  width: 100%;
+}
+
+footer section {
+  padding: 1em;
+  display: flex;
+  border-bottom: 2px solid var(--divide-line-color);
+}
+
+footer section h2 {
+  font-size: 1rem;
+  width: 50%;
+  color: var(--heading-text-color);
+}
+
+footer section ul {
+  width: 50%;
+}
+footer section ul li {
+  margin-bottom: 0.5em;
+}
+footer section a {
+  display: block;
+  width: 100%;
+  font-size: 0.875em;
+  color: var(--footer-links-color);
+}
+
+footer section ul li {
+  display: flex;
+  width: 100%;
+  position: relative;
+}
+footer section svg {
+  margin-right: 0.5em;
+  fill: var(--footer-links-color);
+  width: 1.3em;
+}
+footer section:nth-of-type(3) svg {
+  fill: var(--premium-color);
+}
+footer section:nth-of-type(3) li:nth-of-type(1) a {
+  color: var(--premium-color);
+}
+footer section li:hover {
+  filter: brightness(1000%);
+  text-decoration: underline;
+}
+footer section:nth-of-type(3) ul li:nth-of-type(1) a::after {
+  content: attr(det);
+  position: absolute;
+  left: 0;
+  padding: 0.3em 1em;
+  background-color: var(--background-color);
+  border-radius: 10px;
+  transform: translateY(-110%);
+  opacity: 0;
+  transition: 0.5s;
+  filter: brightness(10%);
+}
+footer section:nth-of-type(3) ul li:nth-of-type(1) a:hover::after {
+  opacity: 100;
+}
